@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://media.istockphoto.com/id/1418996428/vector/abstract-blurred-background-defocused-orange-gradient.jpg?s=612x612&w=0&k=20&c=Dyd6HM6ZkUcobkuehIooHTNYR_3tj9jLTIcPgfMxJ_M=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#top-row {
+    background-color: whitesmoke;
+}
+h1 {
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: clam(10rem, 10vw, 20rem);
+    font-family: Sen;
+    font-size: 1vw;
+    display: inline-block;
+}
+.us-buttons {
+display: inline-block;
+font-size: 0.7vw;
+font-family: Sen;
+padding: 1vw;
+border-style: solid;
+border-width: 2px;
+border-color: black;
+border-radius: 10px;
+transition: 0.5s;
+}
+.us-buttons:hover {
+    transform: scale(1.2);
+    background-color: rgb(244, 197, 111);
+    transition: 0.5s;
+}
+.eye-catcher {
+    font-family: Sen;
+    text-align: center;
+    font-size: 3vw;
+    margin-bottom: 0px;
+}
+.yellow-ec {
+    color: white;
+}
+.eye-catcher-backup {
+    margin-top: 1vh;
+    font-family: Sen;
+    font-size: 2vw;
+    text-align: center;
+}
