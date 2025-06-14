@@ -1,3 +1,6 @@
+html {
+    font-family: Sen;
+}
 body {
     background-image: url(https://media.istockphoto.com/id/1418996428/vector/abstract-blurred-background-defocused-orange-gradient.jpg?s=612x612&w=0&k=20&c=Dyd6HM6ZkUcobkuehIooHTNYR_3tj9jLTIcPgfMxJ_M=);
     background-repeat: no-repeat;
@@ -5,12 +8,12 @@ body {
 }
 #top-row {
     background-color: whitesmoke;
+    border-radius: 0.5vw;
 }
 h1 {
     padding: 1%;
     margin-left: 1%;
     margin-right: clam(10rem, 10vw, 20rem);
-    font-family: Sen;
     font-size: 1vw;
     display: inline-block;
 }
@@ -19,21 +22,30 @@ display: inline-block;
 font-size: 0.7vw;
 font-family: Sen;
 padding: 1vw;
+margin-left: 1vw;
 border-style: solid;
-border-width: 2px;
+border-width: 0.15vw;
 border-color: black;
 border-radius: 10px;
 transition: 0.5s;
 }
 .us-buttons:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: rgb(244, 197, 111);
     transition: 0.5s;
+    cursor: pointer;
+}
+.us-buttons:active {
+    opacity: 0.7;
+    transform: scale(0.95);
+}
+#catch {
+    margin-top: 15vw;
+    margin-bottom: 15vw;
 }
 .eye-catcher {
-    font-family: Sen;
     text-align: center;
-    font-size: 3vw;
+    font-size: 4.5vw;
     margin-bottom: 0px;
 }
 .yellow-ec {
@@ -41,7 +53,98 @@ transition: 0.5s;
 }
 .eye-catcher-backup {
     margin-top: 1vh;
-    font-family: Sen;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
+}
+#purpose-sec {
+    background-color: whitesmoke;
+    padding-left: 3vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-bottom: 4vw;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.purpose-title {
+    font-size: 3.5vw;
+    margin: 0;
+}
+.purpose-info {
+    font-size: 1.5vw;
+    max-width: 25vw;
+    margin: 0;
+}
+.purpose-img img{
+    width: 40vw;
+    padding-left: 1vw;
+    padding-right: 3vw;
+}
+#pay-sec {
+    background-color: whitesmoke;
+    padding: 2vw;
+    border-radius: 0.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#pay-ops {
+    background-color: rgb(200, 200, 200);
+    padding: 2vw;
+    margin: 1vw;
+    width: 30%;
+    color: black;
+    border-radius: 1vw;
+    border-color: rgb(243, 178, 80);
+    border-style: solid;
+    border-width: 0.5vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.title-pay {
+    font-size: 2vw;
+    font-weight: bold;
+}
+.info-pay {
+    font-size: 1.5vw;
+}
+.price-text {
+    font-size: 2vw;
+}
+.prices-num {
+    font-size: 1.5vw;
+    margin-top: 10px;
+}
+.competitor-price {
+    text-decoration: line-through;
+    color: #a10000;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.prices-num {
+    font-weight: bold;
+    font-size: 3vw;
+}
+.p-buttons {
+display: inline-block;
+font-size: 0.7vw;
+font-family: Sen;
+padding: 1vw;
+margin-left: 1vw;
+border-style: solid;
+border-width: 0.15vw;
+border-color: black;
+border-radius: 10px;
+transition: 0.5s;
+}
+.p-buttons:hover {
+    transform: scale(1.1);
+    background-color: rgb(244, 197, 111);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.p-buttons:active {
+    opacity: 0.7;
+    transform: scale(0.95);
 }
