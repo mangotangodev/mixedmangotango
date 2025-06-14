@@ -1,0 +1,126 @@
+    body {
+        background-image: 
+        url(https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    p {
+        font-family: Sen;
+    }
+    .web-name {
+        display: inline-block;
+        font-family: Sen;
+        border-width: 4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 55px;
+        color: black;
+        vertical-align: center;
+    }
+    .web-name:hover {
+        text-decoration: underline;
+    }
+    .web-name:active {
+        opacity: 0.7;
+    }
+    .search-bar {
+        width: 1500px;
+        height: 68px;
+        font-size: 35px;
+        border-color: solid black;
+        border-width: 4px;
+        border-style: solid;
+        margin-bottom: 50px;
+        vertical-align: center;
+    }
+    .search-bar:active {
+        border-color: solid lightblue;
+    }
+    .support-menu, .contact-menu {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 30px;
+        color: black;
+        border-color: black;
+        border-width: 4px;
+        border-style: solid;
+        margin-left: 15px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-bottom: 16px;
+        padding-top: 16px;
+    }
+    .support-menu:hover, .contact-menu:hover {
+        cursor: pointer;
+        margin-left: 13px;
+        border-radius: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    .profile-pic {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .profile-pic:hover {
+        width: 90px;
+        height: 90px;
+    }
+    .profile-pic:active {
+        opacity: 0.7;
+    }
+    .profile {
+        border-color: black;
+        border-width: 0px;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+        margin-right: 25px;
+        margin-left: 25px;
+        width: 300px;
+        height: 630px;
+        box-shadow: 10, 10, 10 black;
+        display: inline-block;
+    }
+    img {
+        width: 300px;
+        height: 392px;
+    }
+    .name, .mutuals {
+        width: 200px;
+        font-family: Sen;
+        font-size: 25px;
+        display: block;
+        padding-left: 10px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    .add-button {
+        color:black;
+        font-size: large;
+        background-color: rgb(255, 255, 255);
+        border-radius: 26px;
+        border-width: 4px;
+        border-color: rgb(0,0,0);
+        margin-left: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        transition: 0.2s;
+    }
+    .add-button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    .add-button:active {
+        background-color: white;
+        color: lightblue;
+        transition: 0.15s;
+    }
