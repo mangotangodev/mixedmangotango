@@ -5,6 +5,9 @@ const PORT = 3000
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
+app.use(express.static('public'))
+app.use('/css', express.static(__dirname + 'public/css'))
+
 app.get('/', (req, res) => {
     res.render('website')
 })
