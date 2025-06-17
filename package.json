@@ -1,0 +1,27 @@
+{
+  "name": "mixedmangotango",
+  "version": "1.0.0",
+  "description": "inprogress",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mangotangodev/mixedmangotango.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mangotangodev/mixedmangotango/issues"
+  },
+  "homepage": "https://github.com/mangotangodev/mixedmangotango#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
